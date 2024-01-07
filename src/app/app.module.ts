@@ -11,9 +11,16 @@ import { counterReducer } from './counter.reducer';
 import { MyCounterComponent } from './my-counter/my-counter.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { BookCollectionComponent } from './book-collection/book-collection.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
-  declarations: [AppComponent, MyCounterComponent,  BookListComponent, BookCollectionComponent],
+  declarations: [
+    AppComponent,
+    MyCounterComponent,
+    BookListComponent,
+    BookCollectionComponent,
+    LoginPageComponent
+  ],
   imports: [
     BrowserModule,
     StoreModule.forRoot({ count: counterReducer, books: booksReducer, collection: collectionReducer }),
