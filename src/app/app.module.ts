@@ -31,7 +31,7 @@ import { ScoreboardModule } from './scoreboard-page/scoreboard.module';
     HttpClientModule,
   ],
   providers: [
-    provideStore({ game: scoreboardReducer })
+    provideStore({ count: counterReducer, books: booksReducer, collection: collectionReducer, game: scoreboardReducer })
   ],
   bootstrap: [AppComponent],
 })
