@@ -30,6 +30,8 @@ export class AppComponent {
       .subscribe((books) =>
         this.store.dispatch(BooksApiActions.retrievedBookList({ books }))
       );
+
+      // this.counter = this.store.select(fromRoot.selectCount, { multiply: 2 })
   }
 }
 

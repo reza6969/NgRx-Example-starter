@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
 import { provideState } from '@ngrx/store';
 
-import { scoreboardFeatureKey, scoreboardReducer } from '../state/scoreboard.reducer';
+import { scoreboardFeatureKey, scoreboardReducer } from '../reducers/scoreboard.reducer';
 
 export const routes: Route[] = [
     {

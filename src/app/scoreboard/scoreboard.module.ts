@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { StoreModule } from '@ngrx/store';
-import { scoreboardFeatureKey, scoreboardReducer } from '../state/scoreboard.reducer'
+import { scoreboardFeatureKey, scoreboardReducer } from '../reducers/scoreboard.reducer'
 
 @NgModule({
     imports: [
